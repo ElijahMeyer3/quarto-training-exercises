@@ -1,0 +1,115 @@
+---
+title: "Exercise 2"
+subtitle: "STA 199 - Fall 2023"
+author: Student Name
+format: pdf
+editor: visual
+---
+
+# Instructions
+
+This exercise is a fabricated student homework submission. They claim that they can not get their document to render and they do not know why.
+
+1.  Render the document
+2.  Analyze the error. Practice finding key words or phrases within the error message to help you find the error in the qmd file.
+3.  Fix the error so that the plot appears in the *Plots* window
+4.  Think critically on how you would explain this error to a student
+
+They come back for help a second time, and say that their document will not render despite all the code working.
+
+1.  Render the document
+2.  Analyze the error. Practice finding key words or phrases within the error message to help you find the error in the qmd file.
+3.  Fix the error so the plot renders.
+
+
+*As a Group*
+
+Students will need continued practice writing *clean code*. The style guide can be found here. We can observe in the rendered document that the code does not look great. Together, let's clean up the coe using the style guide [here](https://style.tidyverse.org/ggplot2.html)
+
+# HW-1
+
+# Packages
+
+```{r}
+#| label: packages
+#| warning: false 
+#| message: false
+#| eval: false
+
+library(tidyverse)
+library(openintro)
+```
+
+# Data
+
+For the following two exercises you will work with data on houses that were sold in the Duke Forest neighborhood of Durham, NC in November 2020. The duke_forest dataset comes from the openintro package. You can see a list of the variables on the package website or by running ?duke_forest in your console.
+
+## Exercise 1
+
+Suppose you're helping some family friends who are looking to buy a house in Duke Forest. As they browse Zillow listings, they realize some houses have garages and others don't, and they wonder: **Does having a garage make a difference for the price?**
+
+Luckily, you can help them answer this question with data visualization!
+
+-   Make histograms of the prices of houses in Duke Forest based on whether they have a garage.
+    -   In order to do this, you will first need to create a new variable called `garage` (with levels `"Garage"` and `"No garage"`).
+
+    -   Below is the code for creating this new variable. Here, we `mutate()` the `duke_forest` data frame to add a new variable called `garage` which takes the value `"Garage"` if the text string `"Garage"` is detected in the `parking` variable and takes the test string `"No garage"` if not.
+
+    -   You will *add* to the existing pipeline (code) to make the histogram.
+
+```{r}
+#| label: price-garage
+ 
+duke_forest |>
+  mutate(garage = if_else(str_detect(parking, "Garage"), "Garage", "No garage")) |>
+ggplot(aes(x = price, fill = garage)) 
+  geom_histogram() + facet_wrap(~garage, ncol = 1) +
+  labs(
+    x = Price in $,
+    y = NULL,
+  )
+  
+Based on this visualization, having a garage does not appear to “make a difference”.
+```
+
+## Notes 
+
+Error 1:
+
+Fix:
+
+Explanation:
+
+------------------------------------------------------------------------
+
+Error 2:
+
+Fix:
+
+Explanation:
+
+------------------------------------------------------------------------
+
+Error 3:
+
+Fix:
+
+Explanation:
+
+------------------------------------------------------------------------
+
+Error 4:
+
+Fix:
+
+Explanation:
+
+------------------------------------------------------------------------
+
+Styling Code
+
+-- 
+
+--
+
+
