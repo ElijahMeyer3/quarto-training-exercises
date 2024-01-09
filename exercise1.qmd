@@ -1,0 +1,96 @@
+---
+title: "Exercise 1"
+  subtitle: "STA 199 - Fall 2023"
+author: Student Name
+format: pdf
+editor: visual
+---
+
+# Instructions
+
+This exercise is created to help you diagnose and fix common Quarto errors students have in STA199. Please complete this exercise by doing the following:
+
+1.  Render the document
+2.  Analyze the error. Practice finding key words or phrases within the error message to help you find the error in the qmd file.
+3.  Fix the error
+4. Think critically on how you would explain this error to a student
+
+Repeat steps 1 through 4 until all errors are fixed and the document
+
+**Note** The purpose is not to solve multiple errors at once. The purpose is to practice identifying the error message with the error, and critically thinking how you could TEACH this fix to your students.
+
+# Packages
+
+```{r}
+#| label: packages
+#| warning: false 
+#| message: false
+
+library(tidyverse)
+```
+
+## Quarto
+
+Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+
+## Running Code
+
+When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
+
+```{r}
+#| label: exercise1
+1 + 1
+```
+
+You can add options to executable code like this
+
+```{r}
+#| label: exercise1
+2 * 2
+```
+
+```{r}
+#| label exercise2
+3 * 4
+```
+
+```{r}
+label: exercise3
+5 * 7
+```
+
+## Notes
+
+Error 1: 
+
+Fix:
+
+Explanation:
+
+---
+
+Error 2: 
+
+Fix:
+
+Explanation:
+
+---
+
+Error 3: 
+
+Fix:
+
+Explanation:
+
+---
+
+Error 4: 
+
+Fix:
+
+Explanation:
+
+---
+
+Useful tool [here](https://nickch-k.github.io/DataCommSlides/Lecture_04_Common_R_Problems.html)
