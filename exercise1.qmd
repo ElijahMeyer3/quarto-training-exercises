@@ -13,7 +13,7 @@ This exercise is created to help you diagnose and fix common Quarto errors stude
 1.  Render the document
 2.  Analyze the error. Practice finding key words or phrases within the error message to help you find the error in the qmd file.
 3.  Fix the error
-4. Think critically on how you would explain this error to a student
+4.  Think critically on how you would explain this error to a student
 
 Repeat steps 1 through 4 until all errors are fixed and the document
 
@@ -61,36 +61,36 @@ label: exercise3
 
 ## Notes
 
-Error 1: 
+Error 1:
 
 Fix:
 
 Explanation:
 
----
+------------------------------------------------------------------------
 
-Error 2: 
-
-Fix:
-
-Explanation:
-
----
-
-Error 3: 
+Error 2:
 
 Fix:
 
 Explanation:
 
----
+------------------------------------------------------------------------
 
-Error 4: 
+Error 3:
 
 Fix:
 
 Explanation:
 
----
+------------------------------------------------------------------------
+
+Error 4:
+
+Fix:
+
+Explanation:
+
+------------------------------------------------------------------------
 
 Useful tool [here](https://nickch-k.github.io/DataCommSlides/Lecture_04_Common_R_Problems.html)

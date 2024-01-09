@@ -12,19 +12,17 @@ This exercise is a fabricated student homework submission. They claim that they 
 
 1.  Render the document
 2.  Analyze the error. Practice finding key words or phrases within the error message to help you find the error in the qmd file.
-3.  Fix the error so that the plot appears in the *Plots* window
+3.  Fix the error
 4.  Think critically on how you would explain this error to a student
 
-They come back for help a second time, and say that their document will not render despite all the code working.
+Repeat steps 1 through 4 until all errors are fixed and the document
 
-1.  Render the document
-2.  Analyze the error. Practice finding key words or phrases within the error message to help you find the error in the qmd file.
-3.  Fix the error so the plot renders.
+**Note** The purpose is not to solve multiple errors at once. The purpose is to practice identifying the error message with the error, and critically thinking how you could TEACH this fix to your students.
 
 
-*As a Group*
+*Together after above exercise is complete*
 
-Students will need continued practice writing *clean code*. The style guide can be found here. We can observe in the rendered document that the code does not look great. Together, let's clean up the coe using the style guide [here](https://style.tidyverse.org/ggplot2.html)
+Students will need continued practice writing *clean code*. The style guide can be found here. We can observe in the rendered document that the code does not look great. Together, let's clean up the code using the style guide [here](https://style.tidyverse.org/ggplot2.html)
 
 # HW-1
 
